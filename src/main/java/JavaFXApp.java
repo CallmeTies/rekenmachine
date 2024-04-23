@@ -30,6 +30,7 @@ public class JavaFXApp extends Application {
     }
 
     protected int computeAdd (int number1, int number2) {
+        System.out.println("compute add");
         return (number1 + number2);
     }
 
